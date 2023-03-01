@@ -2,3 +2,11 @@
   outline: 0;
   box-shadow: none;
 }
+
+#show {
+  display: block;
+}
+
+#hide {
+  display: none;
+}
