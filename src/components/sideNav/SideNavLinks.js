@@ -1,19 +1,19 @@
 
-function SideNavLinks({showClickedNavLink}) {
+function SideNavLinks({ showClickedNavLink }) {
 
     return (
         <div className="side-wrapper">
             <div className="raindrops">
                 <div id="links-row">
-                    <a onClick={() => showClickedNavLink('skills')}>
-                        <p>about me</p>
-                    </a>
-                    <a  onClick={() => showClickedNavLink('aboutMe')}>
+                    <button onClick={() => showClickedNavLink('aboutMe')}>
+                        <p>about</p>
+                    </button>
+                    <button onClick={() => showClickedNavLink('skills')}>
                         <p>skills</p>
-                    </a>
-                    <a data-toggle="modal" data-target="#resumeModal">
+                    </button>
+                    <button data-toggle="modal" data-target="#resumeModal">
                         <p>resume</p>
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>

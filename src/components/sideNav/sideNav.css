@@ -173,7 +173,7 @@ path.cloudDrawn {
     animation: show-top 5s forwards 0s, pop-in-top 2s ease forwards 3.5s;
 }
 
-#links-row a {
+#links-row button {
     width: 80px;
     height: 80px;
     border-radius: 0 50% 50% 50%;
@@ -184,9 +184,10 @@ path.cloudDrawn {
     justify-content: center;
     color: white !important;
     background-color: #02CCFE;
+    padding: 0px;
 }
 
-#links-row a:hover {
+#links-row button:hover {
     background-color: white;
     color: #02CCFE !important;
     cursor: pointer;
@@ -194,7 +195,7 @@ path.cloudDrawn {
 
 #links-row p {
     margin-left: 1px;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 700;
     cursor: pointer;
 }
