@@ -173,9 +173,6 @@ path.cloudDrawn {
     animation: show-top 5s forwards 0s, pop-in-top 2s ease forwards 3.5s;
 }
 
-/* #top-row {
-    animation: show-top 5s forwards 0s, pop-in-top 2s ease forwards 3.5s;
-  } */
 .raintext {
     margin-left: 1px;
     font-size: 20px;
