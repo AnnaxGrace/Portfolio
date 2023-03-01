@@ -5,7 +5,7 @@ function SideNavLinks({ showClickedNavLink }) {
         <div className="side-wrapper">
             <div className="raindrops">
                 <div id="links-row">
-                    <button onClick={() => showClickedNavLink('aboutMe')}>
+                    <button onClick={() => showClickedNavLink('about')}>
                         <p>about</p>
                     </button>
                     <button onClick={() => showClickedNavLink('skills')}>

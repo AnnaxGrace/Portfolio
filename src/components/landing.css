@@ -1,0 +1,33 @@
+#show {
+    display: block;
+}
+
+#hide {
+    display: none;
+}
+
+
+.close-btn {
+    font-size: 34px;
+    margin-left: 95%;
+}
+
+.skills-close-btn {
+    font-size: 34px;
+    margin-left: 85%;
+    margin-top: 30px;
+}
+
+.close-btn:hover,
+.skills-close-btn:hover {
+    color: #FF007F;
+}
+
+/* About ----------------------------------------- */
+
+.brand-statement {
+    margin-right: 40px;
+    line-height: 300%;
+    color: black;
+    font-size: 20px;
+}

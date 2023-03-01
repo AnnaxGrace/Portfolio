@@ -193,6 +193,12 @@ path.cloudDrawn {
     cursor: pointer;
 }
 
+#links-row button:focus {
+    background-color: white;
+    color: #02CCFE !important;
+    outline: #02CCFE;
+}
+
 #links-row p {
     margin-left: 1px;
     font-size: 21px;
