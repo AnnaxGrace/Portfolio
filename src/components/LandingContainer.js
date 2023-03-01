@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import About from "./About";
 import SideNavContainer from "./sideNav/SideNavContainer";
 import "./landing.css"
@@ -28,8 +28,8 @@ function LandingContainer() {
     }
 
     return (
-        <div class="container-fluid">
-            <div class="row">
+        <div className="container-fluid">
+            <div className="row">
                 <SideNavContainer
                     showClickedNavLink={showClickedNavLink}
                 />
