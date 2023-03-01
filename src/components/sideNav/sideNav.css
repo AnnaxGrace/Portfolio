@@ -166,24 +166,14 @@ path.cloudDrawn {
     flex-direction: column;
 }
 
-#top-row {
+#links-row {
     display: flex;
     flex-direction: row;
     justify-content: center;
     animation: show-top 5s forwards 0s, pop-in-top 2s ease forwards 3.5s;
 }
 
-.raintext {
-    margin-left: 1px;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.raintext {
-    cursor: pointer;
-}
-
-.raindrop {
+#links-row button {
     width: 80px;
     height: 80px;
     border-radius: 0 50% 50% 50%;
@@ -194,11 +184,19 @@ path.cloudDrawn {
     justify-content: center;
     color: white !important;
     background-color: #02CCFE;
+    padding: 0px;
 }
 
-.raindrop:hover {
+#links-row button:hover {
     background-color: white;
     color: #02CCFE !important;
+    cursor: pointer;
+}
+
+#links-row p {
+    margin-left: 1px;
+    font-size: 21px;
+    font-weight: 700;
     cursor: pointer;
 }
 
