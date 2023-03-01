@@ -4,15 +4,15 @@ function SideNavLinks({showClickedNavLink}) {
     return (
         <div className="side-wrapper">
             <div className="raindrops">
-                <div id="top-row">
-                    <a class="raindrop" onClick={() => showClickedNavLink('skills')}>
-                        <p class="raintext">about me</p>
+                <div id="links-row">
+                    <a onClick={() => showClickedNavLink('skills')}>
+                        <p>about me</p>
                     </a>
-                    <a class="raindrop" onClick={() => showClickedNavLink('aboutMe')}>
-                        <p class="raintext">skills</p>
+                    <a  onClick={() => showClickedNavLink('aboutMe')}>
+                        <p>skills</p>
                     </a>
-                    <a class="raindrop" data-toggle="modal" data-target="#resumeModal">
-                        <p class="raintext">resume</p>
+                    <a data-toggle="modal" data-target="#resumeModal">
+                        <p>resume</p>
                     </a>
                 </div>
             </div>
