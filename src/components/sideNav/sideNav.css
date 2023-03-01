@@ -1,3 +1,9 @@
+.side-wrapper {
+    position: absolute;
+    top: 350px;
+    left: 80px;
+}
+
 /* Cloud ----------------------------------------- */
 
 .cloud {
@@ -150,4 +156,75 @@ path.cloudDrawn {
 
 .s {
     animation: bounce 1s ease forwards 1.7s;
+}
+
+/* Raindrops ------------------------------------- */
+
+.raindrops {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    animation: show-top 5s forwards 0s, pop-in-top 2s ease forwards 3.5s;
+}
+
+/* #top-row {
+    animation: show-top 5s forwards 0s, pop-in-top 2s ease forwards 3.5s;
+  } */
+.raintext {
+    margin-left: 1px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.raintext {
+    cursor: pointer;
+}
+
+.raindrop {
+    width: 80px;
+    height: 80px;
+    border-radius: 0 50% 50% 50%;
+    border: 3px solid #02CCFE;
+    transform: rotate(45deg);
+    margin: 10px 10px 10px 30px;
+    flex-direction: column;
+    justify-content: center;
+    color: white !important;
+    background-color: #02CCFE;
+}
+
+.raindrop:hover {
+    background-color: white;
+    color: #02CCFE !important;
+    cursor: pointer;
+}
+
+@keyframes pop-in-top {
+    from {
+        margin-top: -40px;
+    }
+
+    to {
+        margin-top: 0px;
+    }
+}
+
+@keyframes show-top {
+    0% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
