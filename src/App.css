@@ -1,4 +1,4 @@
-.btn:focus {
+.btn:focus, .close-btn-resume:focus {
   outline: 0;
   box-shadow: none;
 }

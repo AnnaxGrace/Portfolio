@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import About from "./About";
 import SideNavContainer from "./sideNav/SideNavContainer";
 import "./landing.css"
+import Resume from "./Resume";
 
 
 
@@ -37,6 +38,7 @@ function LandingContainer() {
                     navLinkShow={navLinkShow}
                     closeLinks={closeLinks}
                 />
+                <Resume />
             </div>
         </div>
     )
