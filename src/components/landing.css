@@ -1,3 +1,9 @@
+.close-btn-resume {
+    margin-right: 2%;
+    font-size: 45px;
+    opacity: 1;
+}
+
 .close-btn {
     font-size: 34px;
     margin-left: 95%;
@@ -10,8 +16,9 @@
 }
 
 .close-btn:hover,
-.skills-close-btn:hover {
+.skills-close-btn:hover, .close-btn-resume:hover {
     color: #FF007F;
+    opacity: 1 !important;
 }
 
 /* About ----------------------------------------- */
@@ -20,4 +27,21 @@
     margin-right: 40px;
     line-height: 300%;
     font-size: 20px;
+}
+
+/* Resume --------------------------------------- */
+
+.mobile-download {
+    margin: 0px;
+    background-color: #02CCFE;
+  }
+
+#mobile-download-here {
+    color: #c09793;
+    z-index: 2;
+}
+
+.mobile-download, #mobile-download-here {
+    color: rgba(0,0,0,0);
+    z-index: -1;
 }
