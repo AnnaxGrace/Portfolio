@@ -1,5 +1,5 @@
 
-function Resume({ navLinkShow, closeLinks }) {
+function Resume() {
 
     return (
         <div className="modal fade" id="resumeModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
