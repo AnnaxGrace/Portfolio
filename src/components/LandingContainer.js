@@ -27,12 +27,10 @@ function LandingContainer() {
                 skillsExplanation[item] = "hide"
             }
         })
-        console.log(skillsExplanation)
         setSkillsExplanation({ ...skillsExplanation, [skill]: "show" })
     }
 
     function closeLinks() {
-        console.log(navLinkShow)
         Object.keys(navLinkShow).forEach((item) => {
             navLinkShow[item] = "hide"
         })

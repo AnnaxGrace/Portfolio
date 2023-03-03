@@ -74,8 +74,12 @@
 .clickable-skills:hover {
     color: #FF007F;
     cursor: pointer;
-  }
-  
+}
+
+.certs {
+    margin-left: 100px;
+}
+
 
 .clickable-skills-certs {
     height: 100px;
@@ -85,8 +89,4 @@
     border-bottom: solid #FF007F;
     padding-bottom: 5px;
     cursor: pointer;
-}
-
-.certs {
-    margin-left: 100px;
 }
