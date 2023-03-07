@@ -4,6 +4,7 @@ import SideNavContainer from "./sideNav/SideNavContainer";
 import "./landing.css"
 import Resume from "./Resume";
 import Skills from "./Skills";
+import FooterContainer from "./Footer.js/FooterContainer";
 
 
 
@@ -44,6 +45,9 @@ function LandingContainer() {
                 <SideNavContainer
                     showClickedNavLink={showClickedNavLink}
                 />
+                <div id={navLinkShow.about === "hide" && navLinkShow.skills === "hide" ? "show" : "hide"} className="links-height">
+                
+                </div>
                 <About
                     navLinkShow={navLinkShow}
                     closeLinks={closeLinks}
@@ -55,6 +59,7 @@ function LandingContainer() {
                     showSkill={showSkill}
                     skillsExplanation={skillsExplanation}
                 />
+                <FooterContainer />
             </div>
         </div>
     )

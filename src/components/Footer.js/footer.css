@@ -1,0 +1,21 @@
+footer {
+    text-align: center;
+    width: 100%;
+    animation: show-top 5s forwards 0s;      
+}
+
+.top-name {
+    font-size: 50px;
+}
+
+.icon {
+    color: #2878eb;
+    padding-right: 25px;
+    padding-left: 25px;
+    float: right;
+}
+
+.icon:hover {
+    color: #FF007F;
+    text-decoration: none;
+}

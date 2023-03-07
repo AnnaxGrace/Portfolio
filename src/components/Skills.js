@@ -1,7 +1,7 @@
 function Skills({ navLinkShow, closeLinks, showSkill, skillsExplanation }) {
 
     return (
-        <div id={navLinkShow.skills} className="mt-3 col-lg-7 col-md-12 col-sm-12 justify-content-center">
+        <div id={navLinkShow.skills} className="pt-3 col-lg-7 col-md-12 col-sm-12 justify-content-center links-height">
             <button type="button" className="btn skills-close-btn" onClick={closeLinks}>x</button>
             <div className="row mb-3 skills-list">
 
