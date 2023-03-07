@@ -2,7 +2,7 @@
 function About({ navLinkShow, closeLinks }) {
 
     return (
-        <div id={navLinkShow.about} className="mt-5 col-lg-7 col-md-12 col-sm-12 justify-content-center">
+        <div id={navLinkShow.about} className="pt-5 col-lg-7 col-md-12 col-sm-12 justify-content-center links-height">
             <button type="button" className="btn mt-4 close-btn" onClick={closeLinks}>x</button>
 
             <div className="mt-4">
