@@ -27,14 +27,24 @@ function Skills({ navLinkShow, closeLinks, showSkill, skillsExplanation }) {
 
                 <div id={skillsExplanation.aws} className="col-md-8 cert-paragraph">
                     <p>
-                        "AWS Certified Solutions Architect - Associate showcases knowledge and skills in AWS technology, across a wide range of AWS services. The focus of this certification is on the design of cost and performance optimized solutions, demonstrating a strong understanding of the AWS Well-Architected Framework."  <em><a href="https://www.hashicorp.com/certification/terraform-associate">aws</a></em>
+                        "AWS Certified Solutions Architect - Associate showcases knowledge and skills in AWS technology, across a wide range of AWS services. The focus of this certification is on the design of cost and performance optimized solutions, demonstrating a strong understanding of the AWS Well-Architected Framework."  <em><a href="https://www.hashicorp.com/certification/terraform-associate">AWS</a></em>
                     </p>
                     <p>
                         One of the popular Cloud Platforms, AWS has a robust list of services. I have worked with a multitude of those services, using CLI, the console, and Terraform.
                     </p>
                 </div>
 
+                <div id={skillsExplanation.gcp} className="col-md-8 cert-paragraph">
+                    <p>
+                        "An Associate Cloud Engineer deploys applications, monitors operations, and manages enterprise solutions. This individual is able to use Google Cloud Console and the command-line interface to perform common platform-based tasks to maintain one or more deployed solutions that leverage Google-managed or self-managed services on Google Cloud." <em><a href="https://cloud.google.com/certification/cloud-engineer">GCP</a></em>
+                    </p>
+                    <p>
+                        One of the popular Cloud Platforms, GCP has a robust list of services. I have worked with a multitude of those services, using CLI, the console, and Terraform.
+                    </p>
+                </div>
+
             </div>
+
 
             <div className="row justify-content-center certs mb-5">
                 <img className="clickable-skills-certs" onClick={() => showSkill('terraform')} src={require("../assets/images/hashicorp-certified-terraform-associate.png")} alt="Terraform associate Icon" ></img>

@@ -16,7 +16,7 @@ function FooterContainer() {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    test
+                 test
                 </div>
             </div>
         </footer>
