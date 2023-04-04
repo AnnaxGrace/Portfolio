@@ -43,6 +43,15 @@ function Skills({ navLinkShow, closeLinks, showSkill, skillsExplanation }) {
                     </p>
                 </div>
 
+                <div id={skillsExplanation.SAFe} className="col-md-8 cert-paragraph">
+                    <p>
+                        "A Certified SAFe® 5 Practitioner (SP) is a SAFe team member professional responsible for using Scrum, Kanban, and XP in a SAFe environment. Key areas of responsibility include planning Program Increments and iterations, breaking requirements into stories, developing incrementally with built-in quality, demoing value at a team and program level, and problem solving impediments to drive relentless improvement." <em><a href="https://www.credly.com/org/scaled-agile/badge/certified-safe-5-practitioner#:~:text=Issued%20by%20Scaled%20Agile%20Inc,XP%20in%20a%20SAFe%20environment.">Credly</a></em>
+                    </p>
+                    <p>
+                        This certification indicates knowledge of Agile practices with SAFe (Scaled Agile Framework). I have worked on multiple different Program Increments and multiple different trains, and feel very comfortable jumping into any Agile team.
+                    </p>
+                </div>
+
             </div>
 
 

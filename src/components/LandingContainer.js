@@ -11,7 +11,7 @@ import FooterContainer from "./Footer.js/FooterContainer";
 function LandingContainer() {
 
     const [navLinkShow, setNavLinkShow] = useState({ about: "hide", skills: "hide" })
-    const [skillsExplanation, setSkillsExplanation] = useState({ terraform: "hide", aws: "hide", gcp: "hide" })
+    const [skillsExplanation, setSkillsExplanation] = useState({ terraform: "hide", aws: "hide", gcp: "hide", SAFe: "hide" })
 
     function showClickedNavLink(link) {
         Object.keys(navLinkShow).forEach((item) => {
