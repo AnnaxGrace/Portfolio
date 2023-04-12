@@ -15,9 +15,9 @@ function FooterContainer() {
                         <a href="mailto:annaxgrace2022@gmail.com" className="fas fa-envelope icon fa-3x d-flex" rel="noopener noreferrer"> </a>
                     </div>
                 </div>
-                <div className="row justify-content-center">
+                {/* <div className="row justify-content-center">
                  test
-                </div>
+                </div> */}
             </div>
         </footer>
 

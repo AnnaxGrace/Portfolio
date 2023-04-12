@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LandingContainer />}>
+        <Route path="*" element={<LandingContainer />}>
           <Route index element={<LandingContainer/>} />
           {/* <Route path="about" element={<About />} /> */}
           {/* <Route path="dashboard" element={<Dashboard />} /> */}
