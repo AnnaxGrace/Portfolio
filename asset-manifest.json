@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.55c0c7b2.css",
+    "main.js": "/Portfolio/static/js/main.86978887.js",
+    "static/js/787.aa2a0f55.chunk.js": "/Portfolio/static/js/787.aa2a0f55.chunk.js",
+    "static/media/hashicorp-certified-terraform-associate.png": "/Portfolio/static/media/hashicorp-certified-terraform-associate.0743d2bd3421d1465f04.png",
+    "static/media/Anna Grace Conover Portfolio Resume.pdf": "/Portfolio/static/media/Anna Grace Conover Portfolio Resume.7f60532766f9c0d595fb.pdf",
+    "static/media/aws-certified-solutions-architect-associate.png": "/Portfolio/static/media/aws-certified-solutions-architect-associate.9efe555da5b35c644d92.png",
+    "static/media/gcp_ace_badge.png": "/Portfolio/static/media/gcp_ace_badge.ba42b7dce74ad1186472.png",
+    "static/media/cert_mark_SP_small_150px.png": "/Portfolio/static/media/cert_mark_SP_small_150px.5f2f5e351062d39a4424.png",
+    "index.html": "/Portfolio/index.html",
+    "main.55c0c7b2.css.map": "/Portfolio/static/css/main.55c0c7b2.css.map",
+    "main.86978887.js.map": "/Portfolio/static/js/main.86978887.js.map",
+    "787.aa2a0f55.chunk.js.map": "/Portfolio/static/js/787.aa2a0f55.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55c0c7b2.css",
+    "static/js/main.86978887.js"
+  ]
+}
