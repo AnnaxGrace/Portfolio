@@ -20,5 +20,7 @@ jobs:
       
       - name: Runs deploy
         run: |
+          cd ..
+          cd ..
           npm i
           npm run deploy
