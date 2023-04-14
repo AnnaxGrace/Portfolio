@@ -13,6 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Node Version
         uses: actions/setup-node@v3
         # with:
@@ -20,6 +21,5 @@ jobs:
       
       - name: Runs deploy
         run: |
-          cd ..
           npm i
           npm run deploy
