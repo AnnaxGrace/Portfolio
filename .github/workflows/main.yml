@@ -12,10 +12,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    runs:
-      using: 'node16'
     steps:
-      - uses: actions/setup-node@v2
       - name: Runs deploy
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
         run: |
           npm run deploy
