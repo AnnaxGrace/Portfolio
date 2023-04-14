@@ -14,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Setup SSH Keys and known_hosts
-        env:
-            SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: |
-            ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-            ssh-add - <<< "${{ secrets.ACTIONS_DEPLOY_KEY }}"
+      # - name: Setup SSH Keys and known_hosts
+      #   env:
+      #       SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+      #   run: |
+      #       ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+      #       ssh-add - <<< "${{ secrets.ACTIONS_DEPLOY_KEY }}"
 
       # - name: Some task that fetches dependencies
       #   env:
@@ -30,7 +30,11 @@ jobs:
         uses: actions/setup-node@v3
       
       - name: Runs deploy
+        env:
+            SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+          ssh-add - <<< "${{ secrets.ACTIONS_DEPLOY_KEY }}"
           npm i
           npm run deploy
 
