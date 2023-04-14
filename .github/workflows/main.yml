@@ -23,3 +23,5 @@ jobs:
         run: |
           npm i
           npm run deploy
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
