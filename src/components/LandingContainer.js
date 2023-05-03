@@ -59,7 +59,7 @@ function LandingContainer() {
                     showSkill={showSkill}
                     skillsExplanation={skillsExplanation}
                 />
-                <FooterContainer />
+                {/* <FooterContainer /> */}
             </div>
         </div>
     )

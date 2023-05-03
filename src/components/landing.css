@@ -1,6 +1,14 @@
 .links-height {
-    height: 650px;
+    /* height: 650px; */
 }
+/* 
+@media screen and (max-width: 1316px) {
+    .links-height {
+        position: absolute;
+        top: 300px;
+        left: 5px;
+    }
+} */
 
 .close-btn-resume {
     margin-right: 2%;

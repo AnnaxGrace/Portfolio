@@ -10,7 +10,7 @@ function Resume() {
                             <span aria-hidden="true">&times;</span>
                         </button>
                         <p className="mobile-download">Hey! Looks like you're looking at this screen on mobile. Download the PDF <a id="mobile-download-here" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1OGL_IKpI9Lo0efmMWescbduoHlTOfIGt/view?usp=sharing">here</a>, or check out this page in a desktop!</p>
-                        <embed className="pdf" src={require("../assets/documents//Anna Grace Conover Portfolio Resume.pdf")} width="100%" height="700px" />
+                        <embed className="pdf" src={require("../assets/documents//Anna_Grace_Pennington_resume.pdf")} width="100%" height="700px" />
                     </div>
                     <div className="modal-footer">
                     </div>
