@@ -66,15 +66,9 @@
     background-color: #02CCFE;
 }
 
-#mobile-download-here {
-    color: #c09793;
-    z-index: 2;
-}
-
 .mobile-download,
 #mobile-download-here {
     color: rgba(0, 0, 0, 0);
-    z-index: -1;
 }
 
 /* Skills --------------------------------------- */
@@ -92,7 +86,6 @@
 .certs {
     margin-left: 100px;
 }
-
 
 .clickable-skills-certs {
     height: 100px;
@@ -121,6 +114,16 @@
         margin-bottom: 0px;
         line-height: 150%;
         font-size: 15px;
+    }
+
+    .mobile-download{
+        color: black;
+        background-color: white;
+        margin-top: 50px;
+    }
+
+    #mobile-download-here {
+        color: #FF007F;
     }
     
 }
