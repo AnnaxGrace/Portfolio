@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import About from "./About";
 import SideNavContainer from "./sideNav/SideNavContainer";
 import "./landing.css"
@@ -10,8 +10,18 @@ import FooterContainer from "./Footer.js/FooterContainer";
 
 function LandingContainer() {
 
+    const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);
     const [navLinkShow, setNavLinkShow] = useState({ about: "hide", skills: "hide" })
-    const [skillsExplanation, setSkillsExplanation] = useState({ terraform: "hide", aws: "hide", gcp: "hide", SAFe: "hide" })
+    const [skillsExplanation, setSkillsExplanation] = useState({ terraform: "hide", aws: "hide", gcp: "hide", SAFe: "hide", choices: "show" })
+    
+    const updateMedia = () => {
+        setDesktop(window.innerWidth > 1450);
+      };
+
+    useEffect(() => {
+        window.addEventListener("resize", updateMedia);
+        return () => window.removeEventListener("resize", updateMedia);
+      });
 
     function showClickedNavLink(link) {
         Object.keys(navLinkShow).forEach((item) => {
@@ -58,6 +68,7 @@ function LandingContainer() {
                     closeLinks={closeLinks}
                     showSkill={showSkill}
                     skillsExplanation={skillsExplanation}
+                    isDesktop={isDesktop}
                 />
                 {/* <FooterContainer /> */}
             </div>
