@@ -1,6 +1,7 @@
 .links-height {
     height: 650px;
 }
+
 /* 
 @media screen and (max-width: 1316px) {
     .links-height {
@@ -116,7 +117,7 @@
         font-size: 15px;
     }
 
-    .mobile-download{
+    .mobile-download {
         color: black;
         background-color: white;
         margin-top: 50px;
@@ -142,17 +143,20 @@
     }
 
     .bottom-skill {
-        margin-left: 17px;
-        margin-top: 7px;
+        padding-left: 20px;
+        padding-top: 12px;
         list-style-type: none;
     }
-    
+
     .cert-paragraph {
         padding: 15px;
     }
 
-    .test {
-        font-size: 25px;
+    .back-arrow-all-skills {
         margin-top: 3px;
+    }
+
+    .go-back-all-skills:hover {
+        color: #FF007F;
     }
 }

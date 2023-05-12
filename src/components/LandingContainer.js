@@ -46,7 +46,15 @@ function LandingContainer() {
             navLinkShow[item] = "hide"
         })
         setNavLinkShow({ ...navLinkShow })
+    }
 
+    function returnToAllSkills() {
+        Object.keys(skillsExplanation).forEach((item) => {
+            skillsExplanation[item] = "hide"
+            console.log(item)
+        })
+        setSkillsExplanation({...skillsExplanation, choices: "show"})
+        console.log(skillsExplanation)
     }
 
     return (
@@ -69,6 +77,7 @@ function LandingContainer() {
                     showSkill={showSkill}
                     skillsExplanation={skillsExplanation}
                     isDesktop={isDesktop}
+                    returnToAllSkills={returnToAllSkills}
                 />
                 {/* <FooterContainer /> */}
             </div>
