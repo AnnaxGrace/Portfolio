@@ -11,7 +11,7 @@ function SideNavLinks({ showClickedNavLink }) {
                     <button onClick={() => showClickedNavLink('skills')}>
                         <p>skills</p>
                     </button>
-                    <button data-toggle="modal" data-target="#resumeModal">
+                    <button onClick={() => showClickedNavLink('test')} data-toggle="modal" data-target="#resumeModal">
                         <p>resume</p>
                     </button>
                 </div>
