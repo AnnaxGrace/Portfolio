@@ -94,7 +94,7 @@ function Skills({ isDesktop, navLinkShow, closeLinks, showSkill, skillsExplanati
                             <p>
                                 Terraform is a cloud-agnostic Infrastructure-as-Code tool. I have built solutions using Terraform for GCP, AWS, and Azure. I am proficient in other Terraform related HashiCorp tools, such as Terraform Cloud and Terraform Sentinel. Terraform is one of my favorite tools, and really enables DevOps practices such as automation and collaboration.
                             </p>
-                            <p class="go-back-all-skills" onClick={returnToAllSkills}> <i className="back-arrow-all-skills fas fa-caret-left"></i> Back to all skills </p>
+                            <p className="go-back-all-skills" onClick={returnToAllSkills}> <i className="back-arrow-all-skills fas fa-caret-left"></i> Back to all skills </p>
                         </div>
 
                         <div id={skillsExplanation.aws} className="col-md-8 cert-paragraph">
@@ -104,7 +104,7 @@ function Skills({ isDesktop, navLinkShow, closeLinks, showSkill, skillsExplanati
                             <p>
                                 One of the popular Cloud Platforms, AWS has a robust list of services. I have worked with a multitude of those services, using CLI, the console, and Terraform.
                             </p>
-                            <p class="go-back-all-skills" onClick={returnToAllSkills}> <i className="back-arrow-all-skills fas fa-caret-left"></i> Back to all skills </p>
+                            <p className="go-back-all-skills" onClick={returnToAllSkills}> <i className="back-arrow-all-skills fas fa-caret-left"></i> Back to all skills </p>
                         </div>
 
                         <div id={skillsExplanation.gcp} className="col-md-8 cert-paragraph">
@@ -114,7 +114,7 @@ function Skills({ isDesktop, navLinkShow, closeLinks, showSkill, skillsExplanati
                             <p>
                                 One of the popular Cloud Platforms, GCP has a robust list of services. I have worked with a multitude of those services, using CLI, the console, and Terraform.
                             </p>
-                            <p class="go-back-all-skills" onClick={returnToAllSkills}> <i className="back-arrow-all-skills fas fa-caret-left"></i> Back to all skills </p>
+                            <p className="go-back-all-skills" onClick={returnToAllSkills}> <i className="back-arrow-all-skills fas fa-caret-left"></i> Back to all skills </p>
                         </div>
 
                         <div id={skillsExplanation.SAFe} className="col-md-8 cert-paragraph">
@@ -124,7 +124,7 @@ function Skills({ isDesktop, navLinkShow, closeLinks, showSkill, skillsExplanati
                             <p>
                                 This certification indicates knowledge of Agile practices with SAFe (Scaled Agile Framework). I have worked on multiple different Program Increments and multiple different trains, and feel very comfortable jumping into any Agile team.
                             </p>
-                            <p class="go-back-all-skills" onClick={returnToAllSkills}> <i className="back-arrow-all-skills fas fa-caret-left"></i> Back to all skills </p>
+                            <p className="go-back-all-skills" onClick={returnToAllSkills}> <i className="back-arrow-all-skills fas fa-caret-left"></i> Back to all skills </p>
                         </div>
                     </div>
 

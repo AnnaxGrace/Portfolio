@@ -1,5 +1,4 @@
 import Cloud from "./Cloud";
-import SideNavLinks from "./SideNavLinks";
 import "./sideNav.css"
 
 function SideNavContainer({showClickedNavLink}) {
@@ -8,9 +7,6 @@ function SideNavContainer({showClickedNavLink}) {
         <div className="col-lg-5 col-md-12 col-sm-12 p-0 mb-3">
             <Cloud 
             showClickedNavLink={showClickedNavLink}/>
-            {/* <SideNavLinks 
-                showClickedNavLink={showClickedNavLink}
-            /> */}
         </div>
     )
 }

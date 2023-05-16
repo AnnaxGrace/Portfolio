@@ -3,7 +3,7 @@ import "./footer.css"
 function FooterContainer({isDesktop, navLinkShow}) {
 
     return (
-        <footer id={!isDesktop && (navLinkShow.about === "show" || navLinkShow.skills === "show") && "add-height" } className="row test justify-content-center">
+        <footer id={!isDesktop && (navLinkShow.about === "show" || navLinkShow.skills === "show") ? "add-height" : "no-height" } className="row test justify-content-center">
             <div className="col">
                 <div className="row justify-content-center">
                     <p className="top-name justify-content-center">ANNA GRACE PENNINGTON</p>
