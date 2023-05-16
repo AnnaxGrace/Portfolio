@@ -1,15 +1,18 @@
 .side-wrapper {
-    position: absolute;
+    /* position: absolute;
     top: 350px;
-    left: 80px;
+    left: 80px; */
+    margin-top: -80px;
 }
 
 /* Cloud ----------------------------------------- */
 
 .cloud {
-    position: absolute;
+    /* position: absolute;
     top: -90px;
-    left: 5px;
+    left: 5px; */
+    margin-top: -60px;
+    margin-left: 40px;
     height: 300px;
     width: 500px;
 }
@@ -36,28 +39,14 @@ path.cloudDrawn {
 /* Head in the Clouds text ------------------------------------- */
 .bouncing-text {
     position: absolute;
-    top: 340px;
+    top: 280px;
     display: flex;
     margin-left: 100px;
     font-size: 34px;
     font-family: 'Pacifico';
 }
 
-.h,
-.e,
-.a,
-.d,
-.i,
-.n,
-.t,
-.hh2,
-.e2,
-.c,
-.l,
-.o,
-.u,
-.d2,
-.s {
+.letter {
     color: #02CCFE;
     text-shadow: 0 2px #2878eb, 0 3px #2878eb, 0 5px #2878eb;
 }
@@ -228,4 +217,35 @@ path.cloudDrawn {
     100% {
         opacity: 1;
     }
+}
+
+
+@media screen and (max-width: 1316px) {
+    .cloud {
+        height: 100px;
+        width: 300px;
+    }
+
+    .bouncing-text {
+        position: absolute;
+        top: 145px;
+        display: flex;
+        margin-left: 60px;
+        font-size: 18px;
+    }
+
+    #links-row button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .side-wrapper {
+        margin-top: -50px;
+    }
+
+    #links-row p {
+        font-size: 16px;
+    }
+    
+    
 }

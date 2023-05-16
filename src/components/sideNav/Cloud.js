@@ -1,10 +1,12 @@
 import "./sideNav.css"
+import SideNavLinks from "./SideNavLinks";
 
-function Cloud() {
+
+function Cloud({ showClickedNavLink }) {
 
     return (
         <div className='cloud'>
-            
+
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enableBackground="new 0 0 1000 1000" xmlSpace="preserve">
                 <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
                 <g><g><path
@@ -14,22 +16,27 @@ function Cloud() {
             </svg>
 
             <div className="bouncing-text">
-                <div className="h">H</div>
-                <div className="e">e</div>
-                <div className="a">a</div>
-                <div className="d">d</div>
-                <div className="i">I</div>
-                <div className="n">n</div>
-                <div className="t">T</div>
-                <div className="hh2">h</div>
-                <div className="e2">e</div>
-                <div className="c">C</div>
-                <div className="l">l</div>
-                <div className="o">o</div>
-                <div className="u">u</div>
-                <div className="d2">d</div>
-                <div className="s">s</div>
+                <div className="h letter">H</div>
+                <div className="e letter">e</div>
+                <div className="a letter">a</div>
+                <div className="d letter">d</div>
+                <div className="i letter">I</div>
+                <div className="n letter">n</div>
+                <div className="t letter">T</div>
+                <div className="hh2 letter">h</div>
+                <div className="e2 letter">e</div>
+                <div className="c letter">C</div>
+                <div className="l letter">l</div>
+                <div className="o letter">o</div>
+                <div className="u letter">u</div>
+                <div className="d2 letter">d</div>
+                <div className="s letter">s</div>
+
             </div>
+
+            <SideNavLinks
+                showClickedNavLink={showClickedNavLink}
+            />
 
         </div>
     )

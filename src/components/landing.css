@@ -2,6 +2,15 @@
     height: 650px;
 }
 
+/* 
+@media screen and (max-width: 1316px) {
+    .links-height {
+        position: absolute;
+        top: 300px;
+        left: 5px;
+    }
+} */
+
 .close-btn-resume {
     margin-right: 2%;
     font-size: 45px;
@@ -58,15 +67,9 @@
     background-color: #02CCFE;
 }
 
-#mobile-download-here {
-    color: #c09793;
-    z-index: 2;
-}
-
 .mobile-download,
 #mobile-download-here {
     color: rgba(0, 0, 0, 0);
-    z-index: -1;
 }
 
 /* Skills --------------------------------------- */
@@ -85,7 +88,6 @@
     margin-left: 100px;
 }
 
-
 .clickable-skills-certs {
     height: 100px;
 }
@@ -94,4 +96,68 @@
     border-bottom: solid #FF007F;
     padding-bottom: 5px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1316px) {
+
+    .links-height {
+        margin-top: 130px;
+        height: 350px;
+    }
+
+    .close-btn {
+        margin-bottom: -40px;
+        margin-right: 15px;
+    }
+
+    .brand-statement {
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 0px;
+        line-height: 150%;
+        font-size: 15px;
+    }
+
+    .mobile-download {
+        color: black;
+        background-color: white;
+        margin-top: 50px;
+    }
+
+    #mobile-download-here {
+        color: #FF007F;
+    }
+
+    .certs {
+        margin-left: 0px;
+    }
+
+    .clickable-skills-certs {
+        height: 90px;
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+
+    .skills-close-btn {
+        margin-top: 60px;
+        font-size: 25px;
+    }
+
+    .bottom-skill {
+        padding-left: 20px;
+        padding-top: 12px;
+        list-style-type: none;
+    }
+
+    .cert-paragraph {
+        padding: 15px;
+    }
+
+    .back-arrow-all-skills {
+        margin-top: 3px;
+    }
+
+    .go-back-all-skills:hover {
+        color: #FF007F;
+    }
 }

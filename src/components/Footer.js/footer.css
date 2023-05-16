@@ -19,3 +19,14 @@ footer {
     color: #FF007F;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1316px) {
+
+    #add-height {
+        margin-top: 200px;
+    }
+
+    .top-name {
+        font-size: 30px;
+    }
+ }
