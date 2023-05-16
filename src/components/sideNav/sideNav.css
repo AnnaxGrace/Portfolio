@@ -226,10 +226,6 @@ path.cloudDrawn {
         width: 300px;
     }
 
-    path.cloudDrawn {
-        stroke: purple;
-    }
-
     .bouncing-text {
         position: absolute;
         top: 145px;

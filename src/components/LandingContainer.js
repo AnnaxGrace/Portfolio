@@ -13,15 +13,15 @@ function LandingContainer() {
     const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);
     const [navLinkShow, setNavLinkShow] = useState({ about: "hide", skills: "hide" })
     const [skillsExplanation, setSkillsExplanation] = useState({ terraform: "hide", aws: "hide", gcp: "hide", SAFe: "hide", choices: "show" })
-    
+
     const updateMedia = () => {
         setDesktop(window.innerWidth > 1450);
-      };
+    };
 
     useEffect(() => {
         window.addEventListener("resize", updateMedia);
         return () => window.removeEventListener("resize", updateMedia);
-      });
+    });
 
     function showClickedNavLink(link) {
         Object.keys(navLinkShow).forEach((item) => {
@@ -53,7 +53,7 @@ function LandingContainer() {
             skillsExplanation[item] = "hide"
             console.log(item)
         })
-        setSkillsExplanation({...skillsExplanation, choices: "show"})
+        setSkillsExplanation({ ...skillsExplanation, choices: "show" })
         console.log(skillsExplanation)
     }
 
@@ -79,7 +79,10 @@ function LandingContainer() {
                     isDesktop={isDesktop}
                     returnToAllSkills={returnToAllSkills}
                 />
-                {/* <FooterContainer /> */}
+                <FooterContainer
+                    isDesktop={isDesktop}
+                    navLinkShow={navLinkShow}
+                />
             </div>
         </div>
     )
