@@ -25,7 +25,7 @@ function LandingContainer() {
 
     function showClickedNavLink(link) {
         Object.keys(navLinkShow).forEach((item) => {
-            if (item !== [link]) {
+            if (item !== link) {
                 navLinkShow[item] = "hide"
             }
         })
@@ -34,7 +34,7 @@ function LandingContainer() {
 
     function showSkill(skill) {
         Object.keys(skillsExplanation).forEach((item) => {
-            if (item !== [skill]) {
+            if (item !== skill) {
                 skillsExplanation[item] = "hide"
             }
         })
