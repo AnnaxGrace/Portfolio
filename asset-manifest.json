@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.9abf8e56.css",
-    "main.js": "/static/js/main.a0d5c993.js",
+    "main.js": "/static/js/main.db778b14.js",
     "static/js/787.aa2a0f55.chunk.js": "/static/js/787.aa2a0f55.chunk.js",
     "static/media/Anna_Grace_Pennington_resume.pdf": "/static/media/Anna_Grace_Pennington_resume.a7341178afb4e672ba10.pdf",
     "static/media/hashicorp-certified-terraform-associate.png": "/static/media/hashicorp-certified-terraform-associate.0743d2bd3421d1465f04.png",
+    "static/media/aws_professional_badge.png": "/static/media/aws_professional_badge.bd819be8fbdb3ec02290.png",
     "static/media/aws-certified-solutions-architect-associate.png": "/static/media/aws-certified-solutions-architect-associate.9efe555da5b35c644d92.png",
     "static/media/gcp_ace_badge.png": "/static/media/gcp_ace_badge.ba42b7dce74ad1186472.png",
     "static/media/cert_mark_SP_small_150px.png": "/static/media/cert_mark_SP_small_150px.5f2f5e351062d39a4424.png",
     "index.html": "/index.html",
     "main.9abf8e56.css.map": "/static/css/main.9abf8e56.css.map",
-    "main.a0d5c993.js.map": "/static/js/main.a0d5c993.js.map",
+    "main.db778b14.js.map": "/static/js/main.db778b14.js.map",
     "787.aa2a0f55.chunk.js.map": "/static/js/787.aa2a0f55.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9abf8e56.css",
-    "static/js/main.a0d5c993.js"
+    "static/js/main.db778b14.js"
   ]
 }
