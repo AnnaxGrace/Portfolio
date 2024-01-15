@@ -12,7 +12,7 @@ function LandingContainer() {
 
     const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);
     const [navLinkShow, setNavLinkShow] = useState({ about: "hide", skills: "hide" })
-    const [skillsExplanation, setSkillsExplanation] = useState({ terraform: "hide", aws: "hide", gcp: "hide", SAFe: "hide", choices: "show" })
+    const [skillsExplanation, setSkillsExplanation] = useState({ terraform: "hide", aws: "hide", gcp: "hide", SAFe: "hide", automation: "hide", choices: "show" })
 
     const updateMedia = () => {
         setDesktop(window.innerWidth > 1450);
@@ -33,6 +33,7 @@ function LandingContainer() {
     }
 
     function showSkill(skill) {
+        console.log(skill)
         Object.keys(skillsExplanation).forEach((item) => {
             if (item !== skill) {
                 skillsExplanation[item] = "hide"
@@ -44,6 +45,9 @@ function LandingContainer() {
     function closeLinks() {
         Object.keys(navLinkShow).forEach((item) => {
             navLinkShow[item] = "hide"
+        })
+        Object.keys(skillsExplanation).forEach((item) => {
+            skillsExplanation[item] = "hide"
         })
         setNavLinkShow({ ...navLinkShow })
     }

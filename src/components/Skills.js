@@ -1,3 +1,4 @@
+import SkillsExplanation from "./SkillsExplanation";
 
 
 function Skills({ isDesktop, navLinkShow, closeLinks, showSkill, skillsExplanation, returnToAllSkills }) {
@@ -12,14 +13,29 @@ function Skills({ isDesktop, navLinkShow, closeLinks, showSkill, skillsExplanati
 
                         <ul className="col-md-4 list-group list-group-flush">
                             <li className="list-group-item clickable-skills" onClick={() => showSkill('automation')}>Automation and Orchestration</li>
-                            <li className="list-group-item clickable-skills">HTML</li>
-                            <li className="list-group-item clickable-skills">IaC</li>
-                            <li className="list-group-item clickable-skills">Java</li>
+                            <li className="list-group-item clickable-skills">Frontend Web Development</li>
+                            <li className="list-group-item clickable-skills">Infrastructure as Code</li>
+                            <li className="list-group-item clickable-skills">Backend Web Development</li>
                             <li className="list-group-item clickable-skills">JavaScript, React</li>
                             <li className="list-group-item clickable-skills">Node.js</li>
-                            <li className="list-group-item clickable-skills">PowerShell</li>
+                            <li className="list-group-item clickable-skills">Scripting Languages</li>
                             <li className="list-group-item clickable-skills">SQL</li>
                         </ul>
+
+                        <SkillsExplanation
+                            isDesktop={isDesktop}
+                            skillsExplanation={skillsExplanation}
+                            returnToAllSkills={returnToAllSkills}
+                        />
+
+                        {/* <div id={skillsExplanation.automation} className="col-md-8 cert-paragraph">
+                            <p>
+                                "The Terraform Associate certification is for Cloud Engineers specializing in operations, IT, or development who know the basic concepts and skills associated with open source HashiCorp Terraform." <em><a href="https://www.hashicorp.com/certification/terraform-associate">HashiCorp</a></em>
+                            </p>
+                            <p>
+                                Terraform is a cloud-agnostic Infrastructure-as-Code tool. I have built solutions using Terraform for GCP, AWS, and Azure. I am proficient in other Terraform related HashiCorp tools, such as Terraform Cloud and Terraform Sentinel. Terraform is one of my favorite tools, and really enables DevOps practices such as automation and collaboration.
+                            </p>
+                        </div>
 
                         <div id={skillsExplanation.terraform} className="col-md-8 cert-paragraph">
                             <p>
@@ -55,14 +71,14 @@ function Skills({ isDesktop, navLinkShow, closeLinks, showSkill, skillsExplanati
                             <p>
                                 This certification indicates knowledge of Agile practices with SAFe (Scaled Agile Framework). I have worked on multiple different Program Increments and multiple different trains, and feel very comfortable jumping into any Agile team.
                             </p>
-                        </div>
+                        </div> */}
 
                     </div>
 
 
                     <div className="row justify-content-center certs mb-5">
                         <img className="clickable-skills-certs" onClick={() => showSkill('terraform')} src={require("../assets/images/hashicorp-certified-terraform-associate.png")} alt="Terraform associate Icon" ></img>
-                        <img className="clickable-skills-certs" onClick={() => showSkill('aws')} src={require("../assets/images/aws-certified-solutions-architect-associate.png")} alt="AWS SAA Certification icon" ></img>
+                        <img className="clickable-skills-certs" onClick={() => showSkill('aws')} src={require("../assets/images/aws_professional_badge.png")} alt="AWS SAP Certification icon" ></img>
                         <img className="clickable-skills-certs" onClick={() => showSkill('gcp')} src={require("../assets/images/gcp_ace_badge.png")} alt="GCP associate Icon" ></img>
                         <img className="clickable-skills-certs" onClick={() => showSkill('SAFe')} src={require("../assets/images/cert_mark_SP_small_150px.png")} alt="Safe Certification icon" ></img>
                     </div>
@@ -87,7 +103,7 @@ function Skills({ isDesktop, navLinkShow, closeLinks, showSkill, skillsExplanati
                         </ul>
 
 
-                        <div id={skillsExplanation.terraform} className="col cert-paragraph">
+                        {/* <div id={skillsExplanation.terraform} className="col cert-paragraph">
                             <p>
                                 "The Terraform Associate certification is for Cloud Engineers specializing in operations, IT, or development who know the basic concepts and skills associated with open source HashiCorp Terraform." <em><a href="https://www.hashicorp.com/certification/terraform-associate">HashiCorp</a></em>
                             </p>
@@ -99,7 +115,7 @@ function Skills({ isDesktop, navLinkShow, closeLinks, showSkill, skillsExplanati
 
                         <div id={skillsExplanation.aws} className="col-md-8 cert-paragraph">
                             <p>
-                                "AWS Certified Solutions Architect - Associate showcases knowledge and skills in AWS technology, across a wide range of AWS services. The focus of this certification is on the design of cost and performance optimized solutions, demonstrating a strong understanding of the AWS Well-Architected Framework."  <em><a href="https://www.hashicorp.com/certification/terraform-associate">AWS</a></em>
+                                "AWS Certified Solutions Architect - Professional showcases advanced knowledge and skills in providing complex solutions to complex problems, optimizing security, cost, and performance, and automating manual processes. This certification is a means for organizations to identify and develop talent with these critical skills for implementing cloud initiatives."  <em><a href="https://aws.amazon.com/certification/certified-solutions-architect-professional/">AWS</a></em>
                             </p>
                             <p>
                                 One of the popular Cloud Platforms, AWS has a robust list of services. I have worked with a multitude of those services, using CLI, the console, and Terraform.
@@ -125,7 +141,13 @@ function Skills({ isDesktop, navLinkShow, closeLinks, showSkill, skillsExplanati
                                 This certification indicates knowledge of Agile practices with SAFe (Scaled Agile Framework). I have worked on multiple different Program Increments and multiple different trains, and feel very comfortable jumping into any Agile team.
                             </p>
                             <p className="go-back-all-skills" onClick={returnToAllSkills}> <i className="back-arrow-all-skills fas fa-caret-left"></i> Back to all skills </p>
-                        </div>
+                        </div> */}
+
+                        <SkillsExplanation
+                            isDesktop={isDesktop}
+                            skillsExplanation={skillsExplanation}
+                            returnToAllSkills={returnToAllSkills}
+                        />
                     </div>
 
 
