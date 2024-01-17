@@ -30,6 +30,16 @@ path.cloudDrawn {
     animation: cloud 4s linear forwards;
 }
 
+path.cloudDrawnMobile {
+    fill: none;
+    stroke: #02CCFE;
+    /* stroke: pink; */
+    stroke-width: 7;
+    /* stroke-dasharray: 5127; */
+    /* stroke-dashoffset: -5127; */
+    /* animation: cloud 4s linear forwards; */
+}
+
 @keyframes cloud {
     to {
         stroke-dashoffset: -600;
