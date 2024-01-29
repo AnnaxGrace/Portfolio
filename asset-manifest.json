@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.931c794a.css",
-    "main.js": "/static/js/main.9e835979.js",
+    "main.js": "/static/js/main.7a92cb14.js",
     "static/js/787.aa2a0f55.chunk.js": "/static/js/787.aa2a0f55.chunk.js",
     "static/media/Anna_Grace_Pennington_resume.pdf": "/static/media/Anna_Grace_Pennington_resume.a7341178afb4e672ba10.pdf",
-    "static/media/hashicorp-certified-terraform-associate.png": "/static/media/hashicorp-certified-terraform-associate.0743d2bd3421d1465f04.png",
     "static/media/safe_6_badge.png": "/static/media/safe_6_badge.2954b159aeb462ef4219.png",
+    "static/media/terraform_003_badge.png": "/static/media/terraform_003_badge.f409e5a469ed83312ab5.png",
     "static/media/aws_professional_badge.png": "/static/media/aws_professional_badge.bd819be8fbdb3ec02290.png",
     "static/media/gcp_ace_badge.png": "/static/media/gcp_ace_badge.ba42b7dce74ad1186472.png",
     "index.html": "/index.html",
     "main.931c794a.css.map": "/static/css/main.931c794a.css.map",
-    "main.9e835979.js.map": "/static/js/main.9e835979.js.map",
+    "main.7a92cb14.js.map": "/static/js/main.7a92cb14.js.map",
     "787.aa2a0f55.chunk.js.map": "/static/js/787.aa2a0f55.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.931c794a.css",
-    "static/js/main.9e835979.js"
+    "static/js/main.7a92cb14.js"
   ]
 }
