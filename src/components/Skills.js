@@ -32,7 +32,7 @@ function Skills({ isDesktop, navLinkShow, closeLinks, showSkill, skillsExplanati
 
 
                     <div className="row justify-content-center certs mb-5">
-                        <img className="clickable-skills-certs" onClick={() => showSkill('terraform')} src={require("../assets/images/hashicorp-certified-terraform-associate.png")} alt="Terraform associate Icon" ></img>
+                        <img className="clickable-skills-certs" onClick={() => showSkill('terraform')} src={require("../assets/images/terraform_003_badge.png")} alt="Terraform associate Icon" ></img>
                         <img className="clickable-skills-certs" onClick={() => showSkill('aws')} src={require("../assets/images/aws_professional_badge.png")} alt="AWS SAP Certification icon" ></img>
                         <img className="clickable-skills-certs" onClick={() => showSkill('gcp')} src={require("../assets/images/gcp_ace_badge.png")} alt="GCP associate Icon" ></img>
                         <img className="clickable-skills-certs" onClick={() => showSkill('SAFe')} src={require("../assets/images/safe_6_badge.png")} alt="Safe Certification icon" ></img>
@@ -66,7 +66,7 @@ function Skills({ isDesktop, navLinkShow, closeLinks, showSkill, skillsExplanati
 
 
                     <div id={skillsExplanation.choices} className="row justify-content-center certs mb-5">
-                        <img className="clickable-skills-certs" onClick={() => showSkill('terraform')} src={require("../assets/images/hashicorp-certified-terraform-associate.png")} alt="Terraform associate Icon" ></img>
+                        <img className="clickable-skills-certs" onClick={() => showSkill('terraform')} src={require("../assets/images/terraform_003_badge.png")} alt="Terraform associate Icon" ></img>
                         <img className="clickable-skills-certs" onClick={() => showSkill('aws')} src={require("../assets/images/aws_professional_badge.png")} alt="AWS SAA Certification icon" ></img>
                         <img className="clickable-skills-certs" onClick={() => showSkill('gcp')} src={require("../assets/images/gcp_ace_badge.png")} alt="GCP associate Icon" ></img>
                         <img className="clickable-skills-certs" onClick={() => showSkill('SAFe')} src={require("../assets/images/safe_6_badge.png")} alt="Safe Certification icon" ></img>
